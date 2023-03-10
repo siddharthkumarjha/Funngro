@@ -14521,12 +14521,12 @@ body:not(.fl-builder-edit) .hr__partners-section .swiper-container-horizontal {
     }
 
     .menu-main-navigation .level-0:nth-child(3) .level-1:nth-child(3) {
-        width: 245px;
+        width: 316px;
         background-color: #F3F7F7;
         padding: 32px;
         color: #565656;
         position: relative;
-        max-width: 250px
+        max-width: 500px
     }
 
     .menu-main-navigation .level-0:nth-child(3) .level-1:nth-child(3):before {

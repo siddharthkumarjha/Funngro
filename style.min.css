@@ -14840,7 +14840,7 @@ body:not(.fl-builder-edit) .hr__partners-section .swiper-container-horizontal {
         content: '';
         width: 5px;
         height: 9px;
-        background: center center/cover no-repeat url(/wp-content/themes/hackerrank/assets/images/header/carrot_d.svg);
+        background: center center/cover no-repeat url(https://www.hackerrank.com/wp-content/themes/hackerrank/assets/images/header/carrot_d.svg);
         position: absolute;
         right: 0;
         top: 50%;
@@ -15013,9 +15013,7 @@ body:not(.fl-builder-edit) .hr__partners-section .swiper-container-horizontal {
         height: 61px
     }
 
-    .hr__site-header.header .level-0:nth-child(3) .level-1:nth-child(3) .nav-item {
-        display: none
-    }
+    
 
     .hr__site-header.header .level-0:nth-child(3) .level-1:nth-child(3) strong {
         display: block;
@@ -15116,10 +15114,7 @@ body:not(.fl-builder-edit) .hr__partners-section .swiper-container-horizontal {
         display: block !important
     }
 
-    .menu-secondary-navigation-container .menu-item:first-child {
-        display: none
-    }
-
+    
     .menu-secondary-navigation-container .menu-item a {
         font-size: 16px;
         display: block
@@ -15171,7 +15166,7 @@ body:not(.fl-builder-edit) .hr__partners-section .swiper-container-horizontal {
         height: 11px;
         display: inline-block;
         margin-left: 6px;
-        background: 0 0 no-repeat url(/wp-content/themes/hackerrank/assets/images/header/arrow.svg);
+        background: 0 0 no-repeat url(https://www.hackerrank.com/wp-content/themes/hackerrank/assets/images/header/arrow.svg);
         position: relative
     }
 }

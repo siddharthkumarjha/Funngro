@@ -111,3 +111,127 @@ a{
     height: 100%;
     object-fit: cover;
 }
+#container {
+    margin: 5rem;
+    height: auto; 
+    position:relative; 
+    overflow:hidden;
+}
+.gallery > .menu-main-navigation > .level-0{
+    --d: 10s;
+    display: grid;
+    overflow: hidden;
+    width: 500px;
+}
+
+.gallery > .menu-main-navigation > .level-0 > img{
+    grid-area: 1/1;
+    width: 100%;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+    animation: r var(--d) cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+.gallery > .menu-main-navigation > .level-0 > img:nth-child(2){
+    animation-delay: calc(0.2*var(--d));
+}
+.gallery > .menu-main-navigation > .level-0 > img:nth-child(3){
+    animation-delay: calc(0.4*var(--d));
+}
+.gallery > .menu-main-navigation > .level-0 > img:nth-child(4){
+    animation-delay: calc(0.6*var(--d));
+}
+@keyframes r {
+    80% {
+        transform: translate(-400%);
+    }
+    80.01%{
+        transform: translate(100%);
+    }
+}
+.gallery:hover {
+    overflow: auto;
+}
+ 
+.gallery > .menu-main-navigation > .level-0:hover > img {
+    animation-play-state: paused;
+}
+
+.gallery > .menu-main-navigation > .level-1 > p{
+    width: 100%;
+    font-size: 1rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+}
+.gallery > .menu-main-navigation > .level-1 > p > .icon{
+    margin-right: 1rem;
+    font-size: 20px;
+}
+.description{
+    font-size: 12px;
+    color: #738F93;
+    margin-top: 5px;
+}
+.stats-heading{
+    color:#ffffff;
+}
+.stats-item p{
+    color:#738F93;
+}
+.home_header-left-wrapper a:visited{
+    color:#ffffff;
+}
+.home_header-left-wrapper a:hover{
+    color:#39424e;
+}
+.header-smart{
+    margin:0;
+    font-size: 3.4375rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.button{
+    background-color: #068932;
+}
+.partners-box{
+    background-color: #1f2e40;
+}
+.header-trusted{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.text-size-large{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.left-arrow > img{
+    fill: #000;
+    filter: invert(0%) sepia(99%) saturate(16%) hue-rotate(319deg) brightness(104%) contrast(101%);
+}
+.article-heading{
+    color: #ffffff;
+}
+.article-card:visited > .article-heading{
+    color: #ffffff;
+}
+.text-color-dark-green{
+    color: #219653;
+}
+.footer{
+    background-color: #000;
+}
+.footer-link{
+    color: #ffffff;
+}
+.footer-link:visited{
+    color:#ffffff;
+}
+.text-block{
+    color: #ffffff;
+}
